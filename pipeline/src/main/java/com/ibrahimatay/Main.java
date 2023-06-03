@@ -13,8 +13,8 @@ public class Main {
         Pipeline<Messages> pipeline = new MessagesPipeline();
         pipeline.add(new CreateMessagesStage());
         pipeline.add(new RemoveDuplicatesStage());
-        pipeline.add(new OutputMessagesStage());
         pipeline.add(new SortMessagesStage());
+        pipeline.add(new OutputMessagesStage());
 
         pipeline.execute();
     }
