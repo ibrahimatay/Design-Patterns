@@ -2,7 +2,6 @@ package com.ibrahimatay.stage;
 
 import com.ibrahimatay.model.Message;
 import com.ibrahimatay.model.Messages;
-import com.ibrahimatay.stage.Stage;
 
 public class OutputMessagesStage implements Stage<Messages> {
     @Override
