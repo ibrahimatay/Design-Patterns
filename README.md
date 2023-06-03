@@ -18,7 +18,7 @@ Design Patterns are solutions to common software design problems that occur over
 - [Composite](composite)                 
 - [Bridge](bridge)                
 - [Flyweight](flyweight)                
-- [Decorator](decorator)               
+- [Decorator](decorator)    
 
 ## ***Behavioral***
 - [Command](command)                  
@@ -29,6 +29,7 @@ Design Patterns are solutions to common software design problems that occur over
 - [Template Method](template-method)     
 - [Visitor](visitor)               
 - [Chain of Responsibility](chain-of-responsibility)  
+- [Pipeline](pipeline)
 - [State](state)                   
 - [Mediator](mediator)  
 

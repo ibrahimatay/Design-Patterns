@@ -33,6 +33,7 @@
         <module>singleton-eager-instantiation</module>
         <module>builder</module>
         <module>prototype</module>
+        <module>pipeline</module>
     </modules>
 
     <properties>
