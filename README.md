@@ -1,7 +1,9 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml)
 # Design Patterns For Humans in Java
 Examples of design patterns in Java, presented in a way that is easy for humans to understand and implement. The purpose of these examples is to provide a practical and intuitive guide to the use of design patterns in Java, helping developers to improve their skills and create more effective and maintainable software.
-  
+
+![image](/docs/images/desing-pattern-relationships.jpeg) 
+
 ## ***Creational***
 - [Factory Method](factory-method)        
 - [Abstract Factory](abstract-factory)        
