@@ -34,9 +34,13 @@
         <module>builder</module>
         <module>prototype</module>
         <module>pipeline</module>
+        <module>singleton-static-block</module>
+        <module>singleton-thread-safe</module>
     </modules>
 
     <properties>
+        <java.source.version>17</java.source.version>
+        <java.target.version>17</java.target.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
