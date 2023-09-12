@@ -12,9 +12,7 @@
     <artifactId>state</artifactId>
 
     <properties>
-        <maven.compiler.source>${maven.compiler.source}</maven.compiler.source>
-        <maven.compiler.target>${maven.compiler.target}</maven.compiler.target>
-        <project.build.sourceEncoding>${project.build.sourceEncoding}</project.build.sourceEncoding>
+        <maven.compiler.source>${java.source.version}</maven.compiler.source>
+        <maven.compiler.target>${java.target.version}</maven.compiler.target>
     </properties>
-
 </project>
