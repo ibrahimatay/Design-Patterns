@@ -8,7 +8,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - [Factory Method](factory-method)        
 - [Abstract Factory](abstract-factory)        
 - [Builder](builder)                  
-- [Prototype](prototype)                
+- [Prototype](prototype)                  
 - Singleton ([Eager Instantiation](singleton-eager-instantiation),
   [Lazy Instantiation](singleton-lazy-instantiation),
   [Enum-based Singleton](singleton-with-enum))                
