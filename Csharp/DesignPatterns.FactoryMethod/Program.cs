@@ -23,15 +23,12 @@ class WindowsScreen : IScreen
     public void Draw() => Console.WriteLine("Windows drawing");
 }
 
-class CreatorFactory
+static class CreatorFactory
 {
-    public static IScreen ScreenCreator(ScreenType screenType)
+    public static IScreen ScreenCreator(ScreenType screenType) => screenType switch
     {
-        switch (screenType)
-        {
-            case ScreenType.Web: return new WebScreen();
-            case ScreenType.Windows: return new WindowsScreen();
-            default: throw new ArgumentException();
-        }
-    }
+        ScreenType.Web => new WebScreen(),
+        ScreenType.Windows => new WindowsScreen(),
+        _ => throw new ArgumentException()
+    };
 }
