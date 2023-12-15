@@ -1,5 +1,4 @@
-﻿
-var calculatorFactory = new CalculatorFactory();
+﻿var calculatorFactory = new CalculatorFactory();
 
 var adder = calculatorFactory.GetCalculator(CalculateType.Adder);
 adder.Calculate(1, 2);
@@ -22,34 +21,20 @@ interface ICalculator
 
 class CalculateMultiplier : ICalculator
 {
-    public void Calculate(int val1, int val2)
-    {
-        Console.WriteLine($"{val1} * {val2} = {val1 * val2}");
-    }
+    public void Calculate(int val1, int val2) => Console.WriteLine($"{val1} * {val2} = {val1 * val2}");
 }
 
 class CalculateAdder : ICalculator
 {
-    public void Calculate(int val1, int val2)
-    {
-        Console.WriteLine($"{val1} + {val2} = {val1 + val2}");
-    }
+    public void Calculate(int val1, int val2) => Console.WriteLine($"{val1} + {val2} = {val1 + val2}");
 }
 
 class CalculatorFactory
 {
-    public ICalculator GetCalculator(CalculateType type)
+    public ICalculator GetCalculator(CalculateType type) => type switch
     {
-        if (type == CalculateType.Adder)
-        {
-            return new CalculateAdder();
-        }
-
-        if (type == CalculateType.Multiplier)
-        {
-            return new CalculateMultiplier();
-        }
-
-        throw new Exception();
-    }
+        CalculateType.Adder => new CalculateAdder(),
+        CalculateType.Multiplier => new CalculateMultiplier(),
+        _ => throw new Exception()
+    };
 }
