@@ -22,38 +22,20 @@ class Originator<T>
 {
     private T _state { get; set; }
 
-    public T GetState()
-    {
-        return _state;
-    }
+    public T GetState() => _state;
 
-    public void SetState(T state)
-    {
-        this._state = state;
-    }
+    public void SetState(T state) => _state = state;
 
-    public Memento<T> Redo()
-    {
-        return new Memento<T>(_state);
-    }
+    public Memento<T> Redo() => new(_state);
 
-    public void Undo(Memento<T> memento)
-    {
-        this._state = memento.state;
-    }
+    public void Undo(Memento<T> memento) => _state = memento.state;
 }
 
 class CareTaker<T>
 {
     private Memento<T> _memento;
 
-    public Memento<T> GetMemento()
-    {
-        return _memento;
-    }
+    public Memento<T> GetMemento() => _memento;
 
-    public void SetMemento(Memento<T> memento)
-    {
-        this._memento = memento;
-    }
+    public void SetMemento(Memento<T> memento) => _memento = memento;
 }
