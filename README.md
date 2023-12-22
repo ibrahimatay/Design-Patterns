@@ -5,35 +5,35 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
 ## ***Creational***
-- Factory Method            ([Java](/Java/factory-method), [Csharp](/Csharp/DesignPatterns.FactoryMethod))        
-- Abstract Factory          ([Java](/Java/abstract-factory), [Csharp](/Csharp/DesignPatterns.AbstractFactory))      
-- Builder                   ([Java](/Java/builder))        
-- [Prototype](prototype)    ([Java](/Java/prototype), [Csharp](/Csharp/DesignPatterns.Prototype))    
+- Factory Method                    ([Java](/Java/factory-method), [C#](/Csharp/DesignPatterns.FactoryMethod))        
+- Abstract Factory                  ([Java](/Java/abstract-factory), [C#](/Csharp/DesignPatterns.AbstractFactory))      
+- Builder                           ([Java](/Java/builder))        
+- Prototype                         ([Java](/Java/prototype), [C#](/Csharp/DesignPatterns.Prototype))    
 - Singleton ([Eager Instantiation](/Java/singleton-eager-instantiation),
   [Lazy Instantiation](/Java/singleton-lazy-instantiation),
   [Enum-based Singleton](/Java/singleton-with-enum))                
 
 ## ***Structural***
-- Adapter ([Java](/Java/adapter), [Csharp](/Csharp/DesignPatterns.Adapter))               
-- Proxy   ([Java](/Java/proxy),[Csharp](/Csharp/DesignPatterns.Proxy))   
-- [Facade](facade)                  
-- [Composite](composite)                 
-- [Bridge](bridge)                
-- [Flyweight](flyweight)                
-- [Decorator](decorator)    
+- Adapter                           ([Java](/Java/adapter), [C#](/Csharp/DesignPatterns.Adapter))               
+- Proxy                             ([Java](/Java/proxy), [C#](/Csharp/DesignPatterns.Proxy))   
+- Facade                            ([Java](/Java/facade))        
+- Composite                         ([Java](/Java/composite))        
+- Bridge                            ([Java](/Java/bridge), [C#](/Csharp/DesignPatterns.Bridge))   
+- Flyweight                         ([Java](/Java/flyweight), [C#](/Csharp/DesignPatterns.Flyweight))             
+- Decorator]                        ([Java](/Java/decorator), [C#](/Csharp/DesignPatterns.Decorator))     
 
 ## ***Behavioral***
-- [Command](command)                  
-- [Iterator](iterator)                
-- [Memento](memento)              
-- [Observer](observer)                 
-- [Strategy](strategy)                 
-- [Template Method](template-method)     
-- [Visitor](visitor)               
-- [Chain of Responsibility](chain-of-responsibility)  
-- [Pipeline](pipeline)
-- [State](state)                   
-- [Mediator](mediator)  
+- Command                           ([Java](/Java/command), [C#](/Csharp/DesignPatterns.Command))      
+- Iterator                          ([Java](/Java/iterator))     
+- Memento                           ([Java](/Java/memento), [C#](/Csharp/DesignPatterns.Memento))        
+- Observer                          ([Java](/Java/observer)) 
+- Strategy                          ([Java](/Java/strategy)) 
+- Template Method                   ([Java](/Java/template-method)) 
+- Visitor                           ([Java](/Java/visitor), [C#](/Csharp/DesignPatterns.Visitor))   
+- Chain of Responsibility           ([Java](/Java/chain-of-responsibility), [C#](/Csharp/DesignPatterns.ChainOfResponsibility))   
+- Pipeline                          ([Java](/Java/pipeline))) 
+- State                             ([Java](/Java/state))) 
+- Mediator                          ([Java](/Java/mediator))) 
 
 ## References
 Design patterns in this repository are based on
