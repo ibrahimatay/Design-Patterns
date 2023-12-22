@@ -7,7 +7,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 ## ***Creational***
 - Factory Method                    ([Java](/Java/factory-method), [C#](/Csharp/DesignPatterns.FactoryMethod))        
 - Abstract Factory                  ([Java](/Java/abstract-factory), [C#](/Csharp/DesignPatterns.AbstractFactory))      
-- Builder                           ([Java](/Java/builder))        
+- Builder                           ([Java](/Java/builder), [C#](/Csharp/DesignPatterns.Builder))        
 - Prototype                         ([Java](/Java/prototype), [C#](/Csharp/DesignPatterns.Prototype))    
 - Singleton
   - [Eager Instantiation](/Java/singleton-eager-instantiation)
