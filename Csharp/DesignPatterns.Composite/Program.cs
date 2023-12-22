@@ -1,5 +1,4 @@
-﻿
-File file1 = new("File 1");
+﻿File file1 = new("File 1");
 File file2 = new("File 2");
 File file3 = new("File 3");
 
@@ -26,26 +25,16 @@ interface IPlaceHolder
 class Folder : IPlaceHolder
 {
     readonly String _name;
-    readonly List<IPlaceHolder> _files;
+    private readonly List<IPlaceHolder> _files = new();
 
-    public Folder(String name)
-    {
-        this._name = name;
-        this._files = new List<IPlaceHolder>();
-    }
+    public Folder(String name) => this._name = name;
 
-    public void Add(IPlaceHolder file)
-    {
-        _files.Add(file);
-    }
+    public void Add(IPlaceHolder file) => _files.Add(file);
 
     public void DoubleClick()
     {
         Console.WriteLine($"{_name} folder is Opened");
-        foreach (var placeHolder in _files)
-        {
-            placeHolder.DoubleClick();
-        }
+        _files.ForEach(Console.WriteLine);
     }
 }
 
@@ -53,13 +42,7 @@ class File : IPlaceHolder
 {
     readonly String _name;
 
-    public File(String name)
-    {
-        this._name = name;
-    }
+    public File(String name) => this._name = name;
 
-    public void DoubleClick()
-    {
-        Console.WriteLine($"{_name} file is opened in a program");
-    }
+    public void DoubleClick() => Console.WriteLine($"{_name} file is opened in a program");
 }
