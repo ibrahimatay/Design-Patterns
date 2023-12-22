@@ -5,17 +5,17 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
 ## ***Creational***
-- [Factory Method](factory-method)        
-- [Abstract Factory](abstract-factory)        
-- [Builder](builder)                  
-- [Prototype](prototype)                  
-- Singleton ([Eager Instantiation](singleton-eager-instantiation),
-  [Lazy Instantiation](singleton-lazy-instantiation),
-  [Enum-based Singleton](singleton-with-enum))                
+- Factory Method            ([Java](/Java/factory-method), [Csharp](/Csharp/DesignPatterns.FactoryMethod))        
+- Abstract Factory          ([Java](/Java/abstract-factory), [Csharp](/Csharp/DesignPatterns.AbstractFactory))      
+- Builder                   ([Java](/Java/builder))        
+- [Prototype](prototype)    ([Java](/Java/prototype), [Csharp](/Csharp/DesignPatterns.Prototype))    
+- Singleton ([Eager Instantiation](/Java/singleton-eager-instantiation),
+  [Lazy Instantiation](/Java/singleton-lazy-instantiation),
+  [Enum-based Singleton](/Java/singleton-with-enum))                
 
 ## ***Structural***
-- [Adapter](adapter)                   
-- [Proxy](proxy)                  
+- Adapter ([Java](/Java/adapter), [Csharp](/Csharp/DesignPatterns.Adapter))               
+- Proxy   ([Java](/Java/proxy),[Csharp](/Csharp/DesignPatterns.Proxy))   
 - [Facade](facade)                  
 - [Composite](composite)                 
 - [Bridge](bridge)                
