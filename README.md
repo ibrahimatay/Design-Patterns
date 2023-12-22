@@ -21,7 +21,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Composite                         ([Java](/Java/composite), [C#](/Csharp/DesignPatterns.Composite))      
 - Bridge                            ([Java](/Java/bridge), [C#](/Csharp/DesignPatterns.Bridge))   
 - Flyweight                         ([Java](/Java/flyweight), [C#](/Csharp/DesignPatterns.Flyweight))             
-- Decorator]                        ([Java](/Java/decorator), [C#](/Csharp/DesignPatterns.Decorator))     
+- Decorator                         ([Java](/Java/decorator), [C#](/Csharp/DesignPatterns.Decorator))     
 
 ## ***Behavioral***
 - Command                           ([Java](/Java/command), [C#](/Csharp/DesignPatterns.Command))      
