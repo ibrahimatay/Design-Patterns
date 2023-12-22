@@ -12,10 +12,7 @@ abstract class BreadMaker
     protected abstract void Bake();
     protected abstract void MixIngredients();
 
-    protected void Slice()
-    {
-        Console.WriteLine("Slicing the bread!");
-    }
+    protected void Slice() => Console.WriteLine("Slicing the bread!");
 
     public void Make()
     {
@@ -28,25 +25,17 @@ abstract class BreadMaker
 class GrainBread : BreadMaker
 {
     protected override void Bake()
-    {
-        Console.WriteLine("Baking the Grain Bread. (25 minutes)");
-    }
+        => Console.WriteLine("Baking the Grain Bread. (25 minutes)");
 
     protected override void MixIngredients()
-    {
-        Console.WriteLine("Gathering Ingredients for Grain Bread.");
-    }
+        => Console.WriteLine("Gathering Ingredients for Grain Bread.");
 }
 
 class WholeWheatBread : BreadMaker
 {
     protected override void Bake()
-    {
-        Console.WriteLine("Baking the Whole Wheat Bread. (15 minutes)");
-    }
+        => Console.WriteLine("Baking the Whole Wheat Bread. (15 minutes)");
 
     protected override void MixIngredients()
-    {
-        Console.WriteLine("Gathering Ingredients for Whole Wheat Bread.");
-    }
+        => Console.WriteLine("Gathering Ingredients for Whole Wheat Bread.");
 }
