@@ -14,24 +14,15 @@ interface ICommand
 
 class Controller
 {
-    public void Invoke(ICommand command)
-    {
-        command.Execute();
-    }
+    public void Invoke(ICommand command)=>command.Execute();
 }
 
 class AddPostCommand : ICommand
 {
-    public void Execute()
-    {
-        Console.WriteLine("Added to Post");
-    }
+    public void Execute()=>Console.WriteLine("Added to Post");
 }
 
 class UpdatePostCommand : ICommand
 {
-    public void Execute()
-    {
-        Console.WriteLine("Updated to Post");
-    }
+    public void Execute()=>Console.WriteLine("Updated to Post");
 }
