@@ -9,15 +9,16 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Abstract Factory                  ([Java](/Java/abstract-factory), [C#](/Csharp/DesignPatterns.AbstractFactory))      
 - Builder                           ([Java](/Java/builder))        
 - Prototype                         ([Java](/Java/prototype), [C#](/Csharp/DesignPatterns.Prototype))    
-- Singleton ([Eager Instantiation](/Java/singleton-eager-instantiation),
-  [Lazy Instantiation](/Java/singleton-lazy-instantiation),
-  [Enum-based Singleton](/Java/singleton-with-enum))                
+- Singleton
+  - [Eager Instantiation](/Java/singleton-eager-instantiation)
+  - [Lazy Instantiation](/Java/singleton-lazy-instantiation)
+  - [Enum-based Singleton](/Java/singleton-with-enum)                
 
 ## ***Structural***
 - Adapter                           ([Java](/Java/adapter), [C#](/Csharp/DesignPatterns.Adapter))               
 - Proxy                             ([Java](/Java/proxy), [C#](/Csharp/DesignPatterns.Proxy))   
-- Facade                            ([Java](/Java/facade))        
-- Composite                         ([Java](/Java/composite))        
+- Facade                            ([Java](/Java/facade), [C#](/Csharp/DesignPatterns.Facade))        
+- Composite                         ([Java](/Java/composite), [C#](/Csharp/DesignPatterns.Composite))      
 - Bridge                            ([Java](/Java/bridge), [C#](/Csharp/DesignPatterns.Bridge))   
 - Flyweight                         ([Java](/Java/flyweight), [C#](/Csharp/DesignPatterns.Flyweight))             
 - Decorator]                        ([Java](/Java/decorator), [C#](/Csharp/DesignPatterns.Decorator))     
@@ -31,9 +32,9 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Template Method                   ([Java](/Java/template-method)) 
 - Visitor                           ([Java](/Java/visitor), [C#](/Csharp/DesignPatterns.Visitor))   
 - Chain of Responsibility           ([Java](/Java/chain-of-responsibility), [C#](/Csharp/DesignPatterns.ChainOfResponsibility))   
-- Pipeline                          ([Java](/Java/pipeline))) 
-- State                             ([Java](/Java/state))) 
-- Mediator                          ([Java](/Java/mediator))) 
+- Pipeline                          ([Java](/Java/pipeline))
+- State                             ([Java](/Java/state))
+- Mediator                          ([Java](/Java/mediator)) 
 
 ## References
 Design patterns in this repository are based on
