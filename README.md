@@ -29,7 +29,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Memento                           ([Java](/Java/memento), [C#](/Csharp/DesignPatterns.Memento))        
 - Observer                          ([Java](/Java/observer)) 
 - Strategy                          ([Java](/Java/strategy), [C#](/Csharp/DesignPatterns.Strategy)) 
-- Template Method                   ([Java](/Java/template-method)) 
+- Template Method                   ([Java](/Java/template-method), [C#](/Csharp/DesignPatterns.TemplateMethod)) 
 - Visitor                           ([Java](/Java/visitor), [C#](/Csharp/DesignPatterns.Visitor))   
 - Chain of Responsibility           ([Java](/Java/chain-of-responsibility), [C#](/Csharp/DesignPatterns.ChainOfResponsibility))   
 - Pipeline                          ([Java](/Java/pipeline))
