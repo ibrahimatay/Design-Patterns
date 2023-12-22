@@ -1,5 +1,4 @@
-﻿
-Console.WriteLine("Human Skills:");
+﻿Console.WriteLine("Human Skills:");
 Human human = new(new Living());
 human.Describe();
 
@@ -16,25 +15,16 @@ interface IAnimal
 
 sealed class Living : IAnimal
 {
-    public void Describe()
-    {
-        Console.WriteLine("I am animal");
-    }
+    public void Describe() => Console.WriteLine("I am animal");
 }
 
 abstract class AnimalDecorator : IAnimal
 {
     readonly IAnimal _animal;
 
-    protected AnimalDecorator(IAnimal animal)
-    {
-        this._animal = animal;
-    }
+    protected AnimalDecorator(IAnimal animal) => _animal = animal;
 
-    public virtual void Describe()
-    {
-        _animal.Describe();
-    }
+    public virtual void Describe() => _animal.Describe();
 }
 
 class Bird : AnimalDecorator
