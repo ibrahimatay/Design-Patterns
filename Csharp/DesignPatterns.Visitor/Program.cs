@@ -1,5 +1,4 @@
-﻿
-Computer mac = new MacComputer();
+﻿Computer mac = new MacComputer();
 Computer pc = new PcComputer();
 
 Console.WriteLine(mac);
@@ -36,10 +35,7 @@ class MacComputer : Computer
     {
     }
 
-    public override void Accept(IVisitor visitor)
-    {
-        visitor.Visit(this);
-    }
+    public override void Accept(IVisitor visitor) => visitor.Visit(this);
 }
 
 class PcComputer : Computer
@@ -48,36 +44,30 @@ class PcComputer : Computer
     {
     }
 
-    public override void Accept(IVisitor visitor)
-    {
-        visitor.Visit(this);
-    }
+    public override void Accept(IVisitor visitor) => visitor.Visit(this);
 }
 
 class ExternalPowerVisitor : IVisitor
 {
     public void Visit(Computer computer)
-    {
-        Console.WriteLine(computer is MacComputer ? "MAC have external power" : "Unsupported external power");
-    }
+        => Console.WriteLine(computer is MacComputer ? "MAC have external power" : "Unsupported external power");
 }
 
 class WifiVisitor : IVisitor
 {
     public void Visit(Computer computer)
     {
-        if (computer is MacComputer)
+        switch (computer)
         {
-            Console.WriteLine("Mac have wi-fi");
-        }
-
-        if (computer is PcComputer)
-        {
-            Console.WriteLine("PC have wi-fi");
-        }
-        else
-        {
-            Console.WriteLine("Unsupported wifi");
+            case MacComputer:
+                Console.WriteLine("Mac have wi-fi");
+                break;
+            case PcComputer:
+                Console.WriteLine("PC have wi-fi");
+                break;
+            default:
+                Console.WriteLine("Unsupported wifi");
+                break;
         }
     }
 }
