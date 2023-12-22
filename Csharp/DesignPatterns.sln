@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Memento", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", "DesignPatterns.Prototype\DesignPatterns.Prototype.csproj", "{987A5DF9-BDB4-47A5-8E22-D639EB68C039}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{F4595FE1-859B-47CB-B360-315D9EA1F940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{987A5DF9-BDB4-47A5-8E22-D639EB68C039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{987A5DF9-BDB4-47A5-8E22-D639EB68C039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{987A5DF9-BDB4-47A5-8E22-D639EB68C039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4595FE1-859B-47CB-B360-315D9EA1F940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4595FE1-859B-47CB-B360-315D9EA1F940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4595FE1-859B-47CB-B360-315D9EA1F940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4595FE1-859B-47CB-B360-315D9EA1F940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
