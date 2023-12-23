@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.TemplateMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{B8C51F81-EB1E-4B87-A447-D863DA438428}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Mediator", "DesignPatterns.Mediator\DesignPatterns.Mediator.csproj", "{92FEF582-F4A3-4321-A375-B65702FB231D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{B8C51F81-EB1E-4B87-A447-D863DA438428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8C51F81-EB1E-4B87-A447-D863DA438428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C51F81-EB1E-4B87-A447-D863DA438428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FEF582-F4A3-4321-A375-B65702FB231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FEF582-F4A3-4321-A375-B65702FB231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FEF582-F4A3-4321-A375-B65702FB231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FEF582-F4A3-4321-A375-B65702FB231D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
