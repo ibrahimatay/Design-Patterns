@@ -32,7 +32,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Template Method                   ([Java](/Java/template-method), [C#](/Csharp/DesignPatterns.TemplateMethod)) 
 - Visitor                           ([Java](/Java/visitor), [C#](/Csharp/DesignPatterns.Visitor))   
 - Chain of Responsibility           ([Java](/Java/chain-of-responsibility), [C#](/Csharp/DesignPatterns.ChainOfResponsibility))   
-- Pipeline                          ([Java](/Java/pipeline))
+- Pipeline                          ([Java](/Java/pipeline), [C#](/Csharp/DesignPatterns.Pipeline))
 - State                             ([Java](/Java/state), [C#](/Csharp/DesignPatterns.State))
 - Mediator                          ([Java](/Java/mediator), [C#](/Csharp/DesignPatterns.Mediator)) 
 
