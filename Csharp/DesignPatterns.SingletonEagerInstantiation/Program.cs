@@ -19,7 +19,7 @@ class DateTimeSnapshot
 
 class Singleton
 {
-    private readonly static DateTimeSnapshot instance = new();
+    private readonly static DateTimeSnapshot instance = new ();
     public static DateTimeSnapshot GetInstance()
     {
         return instance;
