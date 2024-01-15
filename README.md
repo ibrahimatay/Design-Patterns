@@ -27,7 +27,7 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Command                           ([Java](/Java/command), [C#](/Csharp/DesignPatterns.Command))      
 - Iterator                          ([Java](/Java/iterator), [C#](/Csharp/DesignPatterns.Iterator))     
 - Memento                           ([Java](/Java/memento), [C#](/Csharp/DesignPatterns.Memento))        
-- Observer                          ([Java](/Java/observer)) 
+- Observer                          ([Java](/Java/observer) [C#](/Csharp/DesignPatterns.Observer)) 
 - Strategy                          ([Java](/Java/strategy), [C#](/Csharp/DesignPatterns.Strategy)) 
 - Template Method                   ([Java](/Java/template-method), [C#](/Csharp/DesignPatterns.TemplateMethod)) 
 - Visitor                           ([Java](/Java/visitor), [C#](/Csharp/DesignPatterns.Visitor))   
