@@ -1,24 +1,31 @@
 package com.ibrahimatay;
 
-import java.time.LocalDateTime;
+import java.util.Random;
 
-class DateTimeSnapshot {
-    public String getDateTime() {
-        return LocalDateTime.now().toString();
+class NumberGenerator {
+    private final long currentNumber;
+
+    public NumberGenerator() {
+        currentNumber = new Random().nextLong(1000);
+    }
+
+    public long getNumber() {
+        return currentNumber;
     }
 }
 
 final class Singleton {
-    private final static DateTimeSnapshot instance = new DateTimeSnapshot();
-    public static DateTimeSnapshot getInstance() {
+    private final static NumberGenerator instance = new NumberGenerator();
+
+    public static NumberGenerator getInstance() {
         return instance;
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Singleton.getInstance().getDateTime());
-        System.out.println(Singleton.getInstance().getDateTime());
-        System.out.println(Singleton.getInstance().getDateTime());
+        System.out.println(Singleton.getInstance().getNumber());
+        System.out.println(Singleton.getInstance().getNumber());
+        System.out.println(Singleton.getInstance().getNumber());
     }
 }
