@@ -12,7 +12,8 @@ Examples of design patterns in Java and C# are presented in a way that is easy f
 - Singleton
   - Eager Instantiation             ([Java](/Java/singleton-eager-instantiation), [C#](/Csharp/DesignPatterns.SingletonEagerInstantiation))      
   - Lazy Instantiation              ([Java](/Java/singleton-lazy-instantiation),  [C#](/Csharp/DesignPatterns.SingletonLazyInitialization))      
-  - Enum-based Singleton            ([Java](/Java/singleton-with-enum))            
+  - Enum-based Singleton            ([Java](/Java/singleton-with-enum))     
+  - Double-Checked Locking with Singleton ([C#](/Csharp/DesignPatterns.DoubleCheckedLockingwithSingleton/))       
 
 ## ***Structural***
 - Adapter                           ([Java](/Java/adapter), [C#](/Csharp/DesignPatterns.Adapter))               

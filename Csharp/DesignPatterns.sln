@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonEag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonLazyInitialization", "DesignPatterns.SingletonLazyInitialization\DesignPatterns.SingletonLazyInitialization.csproj", "{4D7C8621-AE0F-42A2-9BE8-A5D00FDDB606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DoubleCheckedLockingwithSingleton", "DesignPatterns.DoubleCheckedLockingwithSingleton\DesignPatterns.DoubleCheckedLockingwithSingleton.csproj", "{30561696-134E-442E-AFE9-B575352AD975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4D7C8621-AE0F-42A2-9BE8-A5D00FDDB606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7C8621-AE0F-42A2-9BE8-A5D00FDDB606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7C8621-AE0F-42A2-9BE8-A5D00FDDB606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30561696-134E-442E-AFE9-B575352AD975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30561696-134E-442E-AFE9-B575352AD975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30561696-134E-442E-AFE9-B575352AD975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30561696-134E-442E-AFE9-B575352AD975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
