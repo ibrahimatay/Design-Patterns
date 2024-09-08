@@ -4,6 +4,8 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
+****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
+
 ## ***Creational***
 - [Factory Method](/DesignPatterns.FactoryMethod)       
 - [Abstract Factory](/DesignPatterns.AbstractFactory) 
