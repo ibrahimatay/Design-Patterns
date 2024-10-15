@@ -20,7 +20,7 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 - [Adapter](/DesignPatterns.Adapter/Program.cs)
 - [Proxy](/DesignPatterns.Proxy/Program.cs)
 - [Facade](/DesignPatterns.Facade/Program.cs)        
-- [Composite](/Csharp/DesignPatterns.Composite/Program.cs)      
+- [Composite](/DesignPatterns.Composite/Program.cs)      
 - [Bridge](/DesignPatterns.Bridge/Program.cs)
 - [Flyweight](/DesignPatterns.Flyweight/Program.cs)        
 - [Decorator](/DesignPatterns.Decorator/Program.cs)     
