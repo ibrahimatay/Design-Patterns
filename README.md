@@ -7,36 +7,36 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
 ## ***Creational***
-- [Factory Method](/DesignPatterns.FactoryMethod)       
-- [Abstract Factory](/DesignPatterns.AbstractFactory) 
-- [Builder](/DesignPatterns.Builder)
-- [Prototype](/DesignPatterns.Prototype)    
+- [Factory Method](/DesignPatterns.FactoryMethod/Program.cs)       
+- [Abstract Factory](/DesignPatterns.AbstractFactory/Program.cs) 
+- [Builder](/DesignPatterns.Builder/Program.cs)
+- [Prototype](/DesignPatterns.Prototype/Program.cs)    
 - Singleton
-  - [Eager Instantiation](/DesignPatterns.SingletonEagerInstantiation)
-  - [Lazy Instantiation](/DesignPatterns.SingletonLazyInitialization)         
-  - [Double-Checked Locking with Singleton](/DesignPatterns.DoubleCheckedLockingwithSingleton/)      
+  - [Eager Instantiation](/DesignPatterns.SingletonEagerInstantiation/Program.cs)
+  - [Lazy Instantiation](/DesignPatterns.SingletonLazyInitialization/Program.cs)         
+  - [Double-Checked Locking with Singleton](/DesignPatterns.DoubleCheckedLockingwithSingleton/Program.cs)      
 
 ## ***Structural***
-- [Adapter](/DesignPatterns.Adapter)
-- [Proxy](/DesignPatterns.Proxy)
-- [Facade](/DesignPatterns.Facade)        
-- [Composite](/Csharp/DesignPatterns.Composite)      
-- [Bridge](/DesignPatterns.Bridge)
-- [Flyweight](/DesignPatterns.Flyweight)        
-- [Decorator](/DesignPatterns.Decorator)     
+- [Adapter](/DesignPatterns.Adapter/Program.cs)
+- [Proxy](/DesignPatterns.Proxy/Program.cs)
+- [Facade](/DesignPatterns.Facade/Program.cs)        
+- [Composite](/Csharp/DesignPatterns.Composite/Program.cs)      
+- [Bridge](/DesignPatterns.Bridge/Program.cs)
+- [Flyweight](/DesignPatterns.Flyweight/Program.cs)        
+- [Decorator](/DesignPatterns.Decorator/Program.cs)     
 
 ## ***Behavioral***
-- [Command](/DesignPatterns.Command)   
-- [Iterator](/DesignPatterns.Iterator)     
-- [Memento](/DesignPatterns.Memento)       
-- [Observer](/DesignPatterns.Observer) 
-- [Strategy](/DesignPatterns.Strategy) 
-- [Template Method](/DesignPatterns.TemplateMethod)
-- [Visitor](/DesignPatterns.Visitor)
-- [Chain of Responsibility](/DesignPatterns.ChainOfResponsibility)   
+- [Command](/DesignPatterns.Command/Program.cs)   
+- [Iterator](/DesignPatterns.Iterator/Program.cs)     
+- [Memento](/DesignPatterns.Memento/Program.cs)       
+- [Observer](/DesignPatterns.Observer/Program.cs) 
+- [Strategy](/DesignPatterns.Strategy/Program.cs) 
+- [Template Method](/DesignPatterns.TemplateMethod/Program.cs)
+- [Visitor](/DesignPatterns.Visitor/Program.cs)
+- [Chain of Responsibility](/DesignPatterns.ChainOfResponsibility/Program.cs)   
 - [Pipeline](/DesignPatterns.Pipeline)
-- [State](/DesignPatterns.State)
-- [Mediator](/DesignPatterns.Mediator) 
+- [State](/DesignPatterns.State/Program.cs)
+- [Mediator](/DesignPatterns.Mediator/Program.cs) 
 
 ## References
 Design patterns in this repository are based on
