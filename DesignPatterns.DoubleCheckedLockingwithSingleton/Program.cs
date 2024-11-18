@@ -1,4 +1,11 @@
-﻿
+﻿using System.Threading;
+
+// Lock Class
+// https://learn.microsoft.com/en-us/dotnet/api/system.threading.lock?view=net-9.0
+
+// Locking with .NET 9.0's System.Threading.Lock, even on older frameworks
+// https://www.reddit.com/r/csharp/comments/1f6ari2/locking_with_net_90s_systemthreadinglock_even_on/
+
 Singleton instance = Singleton.Instance;
 
 Console.WriteLine(instance.CurrentDateTime);
@@ -11,7 +18,12 @@ Task.Factory.StartNew(()=>{
 
 public class Singleton 
 {
-    private static readonly object _lock = new object();
+    #if NET9_0_OR_GREATER
+        var _lock = new Lock;
+    #else
+        var _lock = new object();
+    #endif
+
     private static Singleton instance = null;
 
     public DateTime CurrentDateTime => _currentDateTime;
