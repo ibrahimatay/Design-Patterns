@@ -1,4 +1,5 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml) 
+
 Examples of design patterns in Java are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in Java, helping developers improve their skills and create more effective and maintainable software.
 # Design Patterns For Humans
 
