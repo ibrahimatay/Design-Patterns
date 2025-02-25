@@ -36,6 +36,7 @@
         <module>pipeline</module>
         <module>singleton-static-block</module>
         <module>singleton-thread-safe</module>
+        <module>singleton-double-checked-locking</module>
     </modules>
 
     <properties>

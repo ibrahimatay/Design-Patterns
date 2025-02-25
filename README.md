@@ -12,7 +12,8 @@ Examples of design patterns in Java is presented in a way that is easy for human
 - Singleton
   - [Eager Instantiation](/singleton-eager-instantiation/src/main/java/com/ibrahimatay/Main.java)
   - [Lazy Instantiation](/singleton-lazy-instantiation/src/main/java/com/ibrahimatay/Main.java), 
-  - [Enum-based Singleton](/singleton-with-enum/src/main/java/com/ibrahimatay/Main.java)     
+  - [Enum-based Singleton](/singleton-with-enum/src/main/java/com/ibrahimatay/Main.java)  
+  - [Double Checked Locking](/singleton-double-checked-locking/src/main/java/com/ibrahimatay/Main.java)
 
 ## ***Structural***
 - [Adapter](/adapter/src/main/java/com/ibrahimatay/Main.java)
