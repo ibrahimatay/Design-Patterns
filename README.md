@@ -1,6 +1,6 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml) 
+Examples of design patterns in Java are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in Java, helping developers improve their skills and create more effective and maintainable software.
 # Design Patterns For Humans
-Examples of design patterns in Java is presented in a way that is easy for humans to understand and implement. The purpose of these examples is to provide a practical and intuitive guide to the use of design patterns in Java, helping developers improve their skills and create more effective and maintainable software.
 
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
@@ -11,7 +11,7 @@ Examples of design patterns in Java is presented in a way that is easy for human
 - [Prototype](/prototype/src/main/java/com/ibrahimatay/Main.java)    
 - Singleton
   - [Eager Instantiation](/singleton-eager-instantiation/src/main/java/com/ibrahimatay/Main.java)
-  - [Lazy Instantiation](/singleton-lazy-instantiation/src/main/java/com/ibrahimatay/Main.java), 
+  - [Lazy Instantiation](/singleton-lazy-instantiation/src/main/java/com/ibrahimatay/Main.java) 
   - [Enum-based Singleton](/singleton-with-enum/src/main/java/com/ibrahimatay/Main.java)  
   - [Double Checked Locking](/singleton-double-checked-locking/src/main/java/com/ibrahimatay/Main.java)
 
