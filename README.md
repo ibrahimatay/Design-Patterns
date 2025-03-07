@@ -1,42 +1,41 @@
-[![Java CI with Maven](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/maven.yml) 
-
-Examples of design patterns in Java are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in Java, helping developers improve their skills and create more effective and maintainable software.
+Examples of design patterns in C# are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in C#, helping developers improve their skills and create more effective and maintainable software.
 # Design Patterns For Humans
 
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
 ## ***Creational***
-- [Factory Method](/factory-method/src/main/java/com/ibrahimatay/Main.java)
-- [Abstract Factory](/abstract-factory/src/main/java/com/ibrahimatay/Main.java)      
-- [Builder](/builder/src/main/java/com/ibrahimatay/Main.java)         
-- [Prototype](/prototype/src/main/java/com/ibrahimatay/Main.java)    
+- [Factory Method](/DesignPatterns.FactoryMethod/Program.cs)
+- [Abstract Factory](/DesignPatterns.AbstractFactory/Program.cs)      
+- [Builder](/DesignPatterns.Builder/Program.cs)         
+- [Prototype](/DesignPatterns.Prototype/Program.cs)    
 - Singleton
-  - [Eager Instantiation](/singleton-eager-instantiation/src/main/java/com/ibrahimatay/Main.java)
-  - [Lazy Instantiation](/singleton-lazy-instantiation/src/main/java/com/ibrahimatay/Main.java) 
-  - [Enum-based Singleton](/singleton-with-enum/src/main/java/com/ibrahimatay/Main.java)  
-  - [Double Checked Locking](/singleton-double-checked-locking/src/main/java/com/ibrahimatay/Main.java)
+  - [Double Check Locking](/DesignPatterns.SingletonDoubleCheckLocking/Program.cs)
+  - [Fully Lazy Instantiation](/DesignPatterns.SingletonFullyLazy/Program.cs) 
+  - [Lazy Instantiation](/DesignPatterns.SingletonLazyInitialization/Program.cs) 
+  - [Not Thread-Safe Singleton](/DesignPatterns.SingletonNotThreadSafe/Program.cs)  
+  - [Static Constructor Singleton](/DesignPatterns.SingletonStaticConstructor/Program.cs)
 
 ## ***Structural***
-- [Adapter](/adapter/src/main/java/com/ibrahimatay/Main.java)
-- [Proxy](/proxy/src/main/java/com/ibrahimatay/Main.java)
-- [Facade](/facade/src/main/java/com/ibrahimatay/Main.java)
-- [Composite](/composite/src/main/java/com/ibrahimatay/Main.java)
-- [Bridge](/bridge/src/main/java/com/ibrahimatay/Main.java)
-- [Flyweight](/flyweight/src/main/java/com/ibrahimatay/Main.java)
-- [Decorator](/decorator/src/main/java/com/ibrahimatay/Main.java)
+- [Adapter](/DesignPatterns.Adapter/Program.cs)
+- [Proxy](/DesignPatterns.Proxy/Program.cs)
+- [Facade](/DesignPatterns.Facade/Program.cs)
+- [Composite](/DesignPatterns.Composite/Program.cs)
+- [Bridge](/DesignPatterns.Bridge/Program.cs)
+- [Flyweight](/DesignPatterns.Flyweight/Program.cs)
+- [Decorator](/DesignPatterns.Decorator/Program.cs)
 
 ## ***Behavioral***
-- [Command](/command/src/main/java/com/ibrahimatay/Main.java)      
-- [Iterator](/iterator/src/main/java/com/ibrahimatay/Main.java)     
-- [Memento](/memento/src/main/java/com/ibrahimatay/Main.java)        
-- [Observer](/observer/src/main/java/com/ibrahimatay/Main.java)  
-- [Strategy](/strategy/src/main/java/com/ibrahimatay/Main.java) 
-- [Template Method](/template-method/src/main/java/com/ibrahimatay/Main.java) 
-- [Visitor](/visitor/src/main/java/com/ibrahimatay/Main.java)   
-- [Chain of Responsibility](/chain-of-responsibility/src/main/java/com/ibrahimatay/Main.java)   
-- [Pipeline](/pipeline/src/main/java/com/ibrahimatay/Main.java)
-- [State](/state/src/main/java/com/ibrahimatay/Main.java)
-- [Mediator](/mediator/src/main/java/com/ibrahimatay/Main.java)
+- [Command](/DesignPatterns.Command/Program.cs)      
+- [Iterator](/DesignPatterns.Iterator/Program.cs)     
+- [Memento](/DesignPatterns.Memento/Program.cs)        
+- [Observer](/DesignPatterns.Observer/Program.cs)  
+- [Strategy](/DesignPatterns.Strategy/Program.cs) 
+- [Template Method](/DesignPatterns.TemplateMethod/Program.cs) 
+- [Visitor](/DesignPatterns.Visitor/Program.cs)   
+- [Chain of Responsibility](/DesignPatterns.ChainOfResponsibility/Program.cs)   
+- [Pipeline](/DesignPatterns.Pipeline/Program.cs)
+- [State](/DesignPatterns.State/Program.cs)
+- [Mediator](/DesignPatterns.Mediator/Program.cs)
 
 ## References
 Design patterns in this repository are based on
