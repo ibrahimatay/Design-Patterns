@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonFullyLazy", "DesignPatterns.SingletonFullyLazy\DesignPatterns.SingletonFullyLazy.csproj", "{6FFCD5D3-DF9F-47DA-BF5B-42BE20E67BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,9 @@ Global
 		{6FFCD5D3-DF9F-47DA-BF5B-42BE20E67BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FFCD5D3-DF9F-47DA-BF5B-42BE20E67BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FFCD5D3-DF9F-47DA-BF5B-42BE20E67BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
