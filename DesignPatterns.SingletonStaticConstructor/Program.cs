@@ -23,13 +23,13 @@ class App
         StaticConstructorSingleton.Instance.ConfigValue = "Production Mode";
 
         // Retrieving the value from a different reference
-        Console.WriteLine("Configuration Value: " + StaticConstructorSingleton.Instance.ConfigValue);
+        Console.WriteLine($"Configuration Value: {StaticConstructorSingleton.Instance.ConfigValue}");
         
         // Getting another reference to the singleton instance
         var anotherReference = StaticConstructorSingleton.Instance;
-        Console.WriteLine("Value from another reference: " + anotherReference.ConfigValue);
+        Console.WriteLine($"Value from another reference: {anotherReference.ConfigValue}");
 
         // Checking if both references point to the same instance
-        Console.WriteLine("Are both references the same instance? " + (anotherReference == StaticConstructorSingleton.Instance));
+        Console.WriteLine($"Are both references the same instance? {(anotherReference == StaticConstructorSingleton.Instance)}");
     }
 }
