@@ -3,6 +3,9 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
+## Application Patterns
+- [CQRS (Command Query Responsibility Segregation)](/DesignPatterns.CQRS/Program.cs)
+
 ## ***Creational***
 - [Factory Method](/DesignPatterns.FactoryMethod/Program.cs)
 - [Abstract Factory](/DesignPatterns.AbstractFactory/Program.cs)      
@@ -36,6 +39,8 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 - [Pipeline](/DesignPatterns.Pipeline/Program.cs)
 - [State](/DesignPatterns.State/Program.cs)
 - [Mediator](/DesignPatterns.Mediator/Program.cs)
+
+
 
 ## References
 Design patterns in this repository are based on

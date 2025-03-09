@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SingletonFul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CQRS", "DesignPatterns.CQRS\DesignPatterns.CQRS.csproj", "{7033145A-D6D9-4642-814F-AFAC2B6E90FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,5 +170,9 @@ Global
 		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4EA9B8-B81B-4FA3-BCA8-9F360F9C5E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
