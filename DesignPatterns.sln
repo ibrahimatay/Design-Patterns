@@ -56,6 +56,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CQRS", "DesignPatterns.CQRS\DesignPatterns.CQRS.csproj", "{7033145A-D6D9-4642-814F-AFAC2B6E90FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.VIPER", "DesignPatterns.VIPER\DesignPatterns.VIPER.csproj", "{8D3B2985-D20C-4CB6-97EA-0C634B84366E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,5 +176,9 @@ Global
 		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7033145A-D6D9-4642-814F-AFAC2B6E90FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
