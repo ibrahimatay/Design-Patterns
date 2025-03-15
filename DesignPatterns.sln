@@ -58,6 +58,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.CQRS", "Desi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.VIPER", "DesignPatterns.VIPER\DesignPatterns.VIPER.csproj", "{8D3B2985-D20C-4CB6-97EA-0C634B84366E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.MVC", "DesignPatterns.MVC\DesignPatterns.MVC.csproj", "{3354EC15-AC70-4710-9461-08D6D3C776C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SAGAOrchestration", "DesignPatterns.SAGAOrchestration\DesignPatterns.SAGAOrchestration.csproj", "{EFADB0B7-3F35-4155-992E-706CD1261051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -180,5 +184,13 @@ Global
 		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3B2985-D20C-4CB6-97EA-0C634B84366E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3354EC15-AC70-4710-9461-08D6D3C776C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3354EC15-AC70-4710-9461-08D6D3C776C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3354EC15-AC70-4710-9461-08D6D3C776C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3354EC15-AC70-4710-9461-08D6D3C776C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFADB0B7-3F35-4155-992E-706CD1261051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFADB0B7-3F35-4155-992E-706CD1261051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFADB0B7-3F35-4155-992E-706CD1261051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFADB0B7-3F35-4155-992E-706CD1261051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
