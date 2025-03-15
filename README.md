@@ -9,6 +9,7 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 - [MVC (Model, View, Controller)](/DesignPatterns.MVC/Program.cs)
 - [Saga - Orchestration](/DesignPatterns.SAGAOrchestration/Program.cs)
 - [Saga - Choreography](/DesignPatterns.SAGAChoreography/Program.cs)
+- [Bulkhead](/DesignPatterns.Bulkhead/Program.cs)
 
 ## ***Creational***
 - [Factory Method](/DesignPatterns.FactoryMethod/Program.cs)
