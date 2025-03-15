@@ -5,7 +5,8 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 
 ## Application Patterns
 - [CQRS (Command Query Responsibility Segregation)](/DesignPatterns.CQRS/Program.cs)
-- [Viper (View, Interactor, Presenter, Entity, Router)](/DesignPatterns.VIPER/Program.cs)
+- [VIPER (View, Interactor, Presenter, Entity, Router)](/DesignPatterns.VIPER/Program.cs)
+- [MVC (Model, View, Controller)](/DesignPatterns.MVC/Program.cs)
 
 ## ***Creational***
 - [Factory Method](/DesignPatterns.FactoryMethod/Program.cs)
