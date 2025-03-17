@@ -64,6 +64,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SAGAOrchestr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SAGAChoreography", "DesignPatterns.SAGAChoreography\DesignPatterns.SAGAChoreography.csproj", "{29003FA7-2BCD-49F5-854C-CC545E686990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Bulkhead", "DesignPatterns.Bulkhead\DesignPatterns.Bulkhead.csproj", "{175C0873-B967-43A6-A749-7718025CB3ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,5 +200,9 @@ Global
 		{29003FA7-2BCD-49F5-854C-CC545E686990}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29003FA7-2BCD-49F5-854C-CC545E686990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29003FA7-2BCD-49F5-854C-CC545E686990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175C0873-B967-43A6-A749-7718025CB3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175C0873-B967-43A6-A749-7718025CB3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175C0873-B967-43A6-A749-7718025CB3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175C0873-B967-43A6-A749-7718025CB3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
