@@ -1,5 +1,7 @@
-Examples of design patterns in C# are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in C#, helping developers improve their skills and create more effective and maintainable software.
 # Design Patterns For Humans
+Examples of design patterns in C# are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in C#, helping developers improve their skills and create more effective and maintainable software.
+
+****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
 ![image](/docs/images/desing-pattern-relationships.jpeg) 
 
