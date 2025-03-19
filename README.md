@@ -1,5 +1,4 @@
-[![.NET](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/dotnet.yml)
-
+[![.NET](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/ibrahimatay/Design-Patterns/actions/workflows/dotnet.yml)
 # Design Patterns For Humans
 Examples of design patterns in C# are presented in a way that is easy for humans to understand and implement. These examples provide a practical and intuitive guide to the use of design patterns in C#, helping developers improve their skills and create more effective and maintainable software.
 
