@@ -50,8 +50,7 @@ Examples of design patterns in C# are presented in a way that is easy for humans
 - [Pipeline](/DesignPatterns.Pipeline/Program.cs)
 - [State](/DesignPatterns.State/Program.cs)
 - [Mediator](/DesignPatterns.Mediator/Program.cs)
-
-
+- [Null Object](/DesignPatterns.NullObject/Program.cs)
 
 ## References
 Design patterns in this repository are based on
